@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Broker">
+    <output-path>$PROJECT_DIR$/out/artifacts/Broker</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Broker" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="dir-copy" path="$PROJECT_DIR$/lib" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Broker/web/Web" />
+    </root>
+  </artifact>
+</component>
